@@ -1,0 +1,64 @@
+*{
+  Box-sizing: Border-box
+}
+
+h3 {
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+img {  
+  margin-left: 20px;
+}
+
+.main-title{
+  display: flex;
+  justify-content: center;
+  font-family: 	"Brush Script MT";
+  font-size: 80px;
+}
+
+.article-title{
+  display: flex;
+  justify-content: center;
+  font-family: 	"Brush Script MT";
+  font-size: 50px;
+  
+}
+
+.row{
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.box{
+  border: 1px solid;
+  width: 33vw;
+  height: 33vw;
+}
+
+.box-large{
+  width: 66vw;
+}
+
+.coloured-rectangle{
+  font-family: 	"Brush Script MT";
+  font-size: 30px;
+  padding:20px 0 0 40px;
+  border: 1px solid;
+  height: 20vw;
+}
+
+.col-flex{
+  display: flex;
+  flex-direction:column;
+}
+
+.breaking{
+  font-size: 30px;
+  font-family:"Brush Script MT";
+}
